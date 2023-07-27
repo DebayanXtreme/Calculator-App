@@ -27,12 +27,14 @@ input{
     width: 96%;
     padding: 25px;
     border: none;
+    outline: none;
     border-radius: 40px;
     background: transparent;
-    box-shadow: 2px 2px 2px;
+    box-shadow: 2px 2px 2px 0 black;
     text-align: right;
     cursor: pointer;
     font-size: 20px;
+    color: white;
 }
 
 input::placeholder{
